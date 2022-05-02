@@ -22,4 +22,10 @@ public abstract class Figure {
                 "color='" + color + '\'' +
                 '}';
     }
+
+    public void area(double comprimento, double largura) {
+
+
+    }
+
 }
