@@ -1,11 +1,12 @@
 package Upskill;
 
-public class Rectangle {
+public class Rectangle extends Figure{
 
     private double comprimento;
     private double largura;
 
-    public Rectangle(double comprimento, double largura) {
+    public Rectangle(String color, double comprimento, double largura) {
+        super(color);
         this.comprimento = comprimento;
         this.largura = largura;
     }
@@ -14,6 +15,7 @@ public class Rectangle {
         return comprimento;
     }
 
+<<<<<<< HEAD
     public void setComprimento(double comprimento) {
         this.comprimento = comprimento;
     }
@@ -24,5 +26,10 @@ public class Rectangle {
 
     public void setLargura(double largura) {
         this.largura = largura;
+=======
+    @Override
+    public double perimeter() {
+        return 0;
+>>>>>>> f64a70af298f0c57f28e2ecb7cb5277008123dbe
     }
 }
