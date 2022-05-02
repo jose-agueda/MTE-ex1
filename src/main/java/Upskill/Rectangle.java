@@ -33,4 +33,9 @@ public class Rectangle extends Figure{
             return 0;
    }
 
+    @Override
+    public double area() {
+        return 0;
+    }
+
 }

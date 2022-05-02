@@ -13,4 +13,9 @@ public class Circle extends Figure{
     public double perimeter() {
         return 2* Math.PI * raio;
     }
+
+    @Override
+    public double area() {
+        return 0;
+    }
 }

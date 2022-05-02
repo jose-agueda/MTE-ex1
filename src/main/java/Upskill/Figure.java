@@ -27,8 +27,6 @@ public abstract class Figure {
     public abstract double perimeter();
 
 
-    public void area(double comprimento, double largura) {
-
-    }
+    public abstract double area();
 }
 
