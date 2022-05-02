@@ -39,5 +39,4 @@ public class Rectangle extends Figure{
     public double area() {
         return comprimento * largura;
     }
-
 }
