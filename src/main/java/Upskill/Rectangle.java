@@ -30,7 +30,7 @@ public class Rectangle extends Figure{
 
         @Override
         public double perimeter() {
-            return 0;
+            return comprimento*2 + largura*2;
    }
 
 }
