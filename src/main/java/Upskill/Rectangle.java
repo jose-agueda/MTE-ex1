@@ -28,6 +28,8 @@ public class Rectangle extends Figure{
         this.largura = largura;
     }
 
+
+
         @Override
         public double perimeter() {
             return comprimento*2 + largura*2;
