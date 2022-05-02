@@ -5,7 +5,7 @@ public class Rectangle extends Figure{
     private double comprimento;
     private double largura;
 
-    public Rectangle(String color, double comprimento, double largura) {
+    public Rectangle(Color color, double comprimento, double largura) {
         super(color);
         this.comprimento = comprimento;
         this.largura = largura;
