@@ -37,7 +37,7 @@ public class Rectangle extends Figure{
 
     @Override
     public double area() {
-        return 0;
+        return comprimento*largura;
     }
 
 }
