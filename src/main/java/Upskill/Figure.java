@@ -2,17 +2,17 @@ package Upskill;
 
 public abstract class Figure {
 
-    private String color;
+    private Color color;
 
-    public Figure(String color) {
+    public Figure(Color color) {
         this.color = color;
     }
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
     }
 
