@@ -14,4 +14,7 @@ public abstract class Figure {
                 "color='" + color + '\'' +
                 '}';
     }
+
+
+    public abstract double perimeter();
 }
