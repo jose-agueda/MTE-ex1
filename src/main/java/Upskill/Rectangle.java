@@ -15,7 +15,7 @@ public class Rectangle extends Figure{
         return comprimento;
     }
 
-<<<<<<< HEAD
+
     public void setComprimento(double comprimento) {
         this.comprimento = comprimento;
     }
@@ -26,10 +26,11 @@ public class Rectangle extends Figure{
 
     public void setLargura(double largura) {
         this.largura = largura;
-=======
-    @Override
-    public double perimeter() {
-        return 0;
->>>>>>> f64a70af298f0c57f28e2ecb7cb5277008123dbe
     }
+
+        @Override
+        public double perimeter() {
+            return 0;
+   }
+
 }
